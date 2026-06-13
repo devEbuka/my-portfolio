@@ -4,25 +4,66 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Ebuka | DevOps Engineer</title>
-  <style>
-    body { font-family: sans-serif; max-width: 700px; margin: 60px auto; padding: 0 20px; color: #333; }
-    h1 { color: #0a66c2; }
-    .tag { display: inline-block; background: #e8f0fe; color: #0a66c2; padding: 4px 10px; border-radius: 12px; margin: 4px; font-size: 0.85rem; }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-  <h1>Hi, I'm Ebuka 👋</h1>
-  <p>DevOps Engineer. I build, automate, and ship cloud infrastructure.</p>
-  <h2>Skills</h2>
-  <span class="tag">AWS</span>
-  <span class="tag">Docker</span>
-  <span class="tag">Linux</span>
-  <span class="tag">Terraform</span>
-  <span class="tag">CI/CD</span>
-  <h2>Projects</h2>
-  <p>🚧 More coming soon as I build them out.</p>
+
+  <header>
+    <h1>Ebuka</h1>
+    <p>DevOps Engineer &mdash; Cloud Infrastructure &bull; Automation &bull; CI/CD</p>
+  </header>
+
+  <main>
+
+    <section>
+      <h2>About</h2>
+      <p>
+        I'm a DevOps engineer building hands-on experience across cloud infrastructure,
+        Linux administration, and application deployment. Currently working through a
+        structured roadmap toward AWS SAA-C03 and CKA certifications.
+      </p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <div class="tags">
+        <span class="tag">AWS</span>
+        <span class="tag">Docker</span>
+        <span class="tag">Linux</span>
+        <span class="tag">Terraform</span>
+        <span class="tag">Ansible</span>
+        <span class="tag">CI/CD</span>
+        <span class="tag">Nginx</span>
+        <span class="tag">MySQL</span>
+        <span class="tag">Git</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+
+      <div class="project-item">
+        <h3>Portfolio Site + CI/CD Pipeline <span class="status done">Complete</span></h3>
+        <p>Static portfolio deployed automatically to GitHub Pages via GitHub Actions on every push to main.</p>
+      </div>
+
+      <div class="project-item">
+        <h3>Terraform VPC + EC2 <span class="status wip">In Progress</span></h3>
+        <p>Provisioning AWS network infrastructure and compute using Infrastructure as Code.</p>
+      </div>
+
+      <div class="project-item">
+        <h3>Ansible Configuration Management <span class="status wip">Coming Soon</span></h3>
+        <p>Automating server setup and application configuration across multiple EC2 instances.</p>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Built and deployed with GitHub Actions &mdash; <a href="https://github.com/devEbuka/my-portfolio" target="_blank">View source</a></p>
+  </footer>
+
 </body>
-
-
 </html>
